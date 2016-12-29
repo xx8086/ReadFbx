@@ -1,0 +1,13 @@
+*.suo
+*.sdf
+/Debug/
+*.obj
+*.log
+*.idb
+*.pdb
+*.tlog
+*.exe
+*.ilk
+*.VC
+*.v12
+*.opensdf

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="AnalyseFbx">
+      <UniqueIdentifier>{9b756e2c-cf21-4b2e-ba16-3281ee740508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PublicCommon">
+      <UniqueIdentifier>{249f700a-dabe-4e2f-90ff-fc0c730e609f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalyseFbx\ExtractScene.h">
+      <Filter>AnalyseFbx</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalyseFbx\GLInclude.h">
+      <Filter>AnalyseFbx</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalyseFbx\transformmodel_global.h">
+      <Filter>AnalyseFbx</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalyseFbx\TransformModelConfig.h">
+      <Filter>AnalyseFbx</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalyseFbx\BaseConfig.h">
+      <Filter>AnalyseFbx</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalyseFbx\ExtractFbxNode.h">
+      <Filter>AnalyseFbx</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalyseFbx\ExtractManager.h">
+      <Filter>AnalyseFbx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PublicCommon\CharacterChange.h">
+      <Filter>PublicCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PublicCommon\ToolsConfig.h">
+      <Filter>PublicCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalyseFbx\StructDatas.h">
+      <Filter>AnalyseFbx</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalyseFbx\GetVerTextices.h">
+      <Filter>AnalyseFbx</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestImport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnalyseFbx\ExtractScene.cpp">
+      <Filter>AnalyseFbx</Filter>
+    </ClCompile>
+    <ClCompile Include="AnalyseFbx\ExtractFbxNode.cpp">
+      <Filter>AnalyseFbx</Filter>
+    </ClCompile>
+    <ClCompile Include="AnalyseFbx\ExtractManager.cpp">
+      <Filter>AnalyseFbx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PublicCommon\CharacterChange.cpp">
+      <Filter>PublicCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="AnalyseFbx\GetVerTextices.cpp">
+      <Filter>AnalyseFbx</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WriteFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
