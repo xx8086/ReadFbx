@@ -8,6 +8,5 @@
 *.tlog
 *.exe
 *.ilk
-*.VC
-*.v12
+*.db
 *.opensdf
